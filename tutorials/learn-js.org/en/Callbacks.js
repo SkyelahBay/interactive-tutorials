@@ -1,5 +1,5 @@
 
-/* EXAMPLE */
+/* EXAMPLE 
 function useCallback(callback)
 {
     callback(1);
@@ -9,7 +9,7 @@ function useCallback(callback)
 function callback(sentence) {
     // TODO: print out sentence
 }
-
+*/
 
 
 
