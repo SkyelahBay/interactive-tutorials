@@ -1,8 +1,7 @@
 /*
     Create bound copies of printFullName and printDetails to person called boundPrintFullName and boundPrintDetails.
-*/
-
-/* EXAMPLE */
+    
+EXAMPLE
 var person = {
     firstName : "John",
     lastName : "Smith",
@@ -23,7 +22,7 @@ var boundPrintFullName;
 var boundPrintDetails;
 boundPrintFullName();
 boundPrintDetails();
-
+*/
 
 
 
@@ -44,8 +43,8 @@ function printDetails()
     console.log(`${this.firstName} is ${this.age} years old`);
 }
 
-let boundPrintFullName = printFullName.bind(person);
-let boundPrintDetails = printDetails.bind(person);
+let boundPrintFullName = printFullName.bind(person),
+    boundPrintDetails = printDetails.bind(person);
 
 boundPrintFullName(); //Skyelah Bay
 boundPrintDetails();  //Skyelah is 24 years old
