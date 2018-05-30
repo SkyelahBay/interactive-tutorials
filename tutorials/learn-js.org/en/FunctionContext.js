@@ -34,14 +34,8 @@ let person = {
     age : 24
 };
 
-function printFullName()
-{
-    console.log(`${this.firstName} ${this.lastName}`);
-}
-function printDetails()
-{
-    console.log(`${this.firstName} is ${this.age} years old`);
-}
+function printFullName(){ console.log(`${this.firstName} ${this.lastName}`) }
+function printDetails(){ console.log(`${this.firstName} is ${this.age} years old`) }
 
 let boundPrintFullName = printFullName.bind(person),
     boundPrintDetails = printDetails.bind(person);
