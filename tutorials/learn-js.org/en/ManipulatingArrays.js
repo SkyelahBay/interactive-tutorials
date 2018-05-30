@@ -11,13 +11,9 @@ console.log(myArray[1]);
 
 
 /* SOLUTION */
-let myArray = [
-    true, 
-    "What is the meaning of life?"
-];
+let myArray = [true, "What is the meaning of life?"];
 
 myArray.shift();
 myArray.push(42);
 
-console.log(myArray[0]); //"What is the meaning of life?"
-console.log(myArray[1]); // 42
+console.log(`${myArray[0]} - ${myArray[1]}`); 
