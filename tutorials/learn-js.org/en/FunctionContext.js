@@ -29,7 +29,6 @@ boundPrintDetails();
 
 
 /* SOLUTION */
-
 let person = {
     firstName : "Skyelah",
     lastName : "Bay",
