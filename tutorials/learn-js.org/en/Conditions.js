@@ -20,10 +20,7 @@ function checkNumber()
 
 
 /* Solution */
-function checkNumber(num)
-{
-    console.log(num === 42 ? "correct" : "incorrect");
-}
+let checkNumber = num => console.log(num === 42 ? "correct" : "incorrect");
 checkNumber(3);
 checkNumber(7);
 checkNumber(42);
