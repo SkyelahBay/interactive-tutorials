@@ -22,6 +22,6 @@ let Person = function(name, age){
     this.age = age;
     this.describe = () => `${this.name}, ${this.age} years old`;
 }
-let jack = new Person("Jack", 25);
-let jill = new Person("Jill", 24);
+let jack = new Person("Jack", 25),
+    jill = new Person("Jill", 24);
 console.log(`${jack.describe()}\n${jill.describe()}`);
